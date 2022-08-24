@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: auto;
+        }
+       
+        #main{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            grid-template-rows: repeat(3,400px );
+            
+        }
+
+        #main>div{
+            border: 1px solid red;
+        }
+        #grey{
+            
+            background: #383838 
+        }
+        #grey>div{
+            border: 0px solid red;
+            height: 100px;
+            display: flex;
+            justify-content:space-between;
+            padding-top: 20px;
+                      
+        }
+        #get-the-app{
+            display: flex;
+            justify-content:space-between;
+            border: 0px solid red;
+            width: 700px;
+            color: aliceblue;
+            font-size:small;
+        }
+        #button1{
+            margin-top: -10px;
+                height: 50px;
+                margin-top: -1px;
+                width: 200px;
+                margin-right: 20px;
+                color: azure;
+                border: none;
+                border-radius: 80px;
+                background-image: linear-gradient(to right, #5a3bdb, #75c6ec);
+
+        }
+        #white>img{
+            margin-top: -200px; max-width: 300px; z-index: 2;
+            margin-left: 200px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="grey">
+            <div>
+             <img height="50px" src="https://kcdn.twiikapp.com/images/logo.png" alt="">
+             <div id="get-the-app">
+                <h2>Get the app</h2>
+                <h2>Conatact</h2>
+                <h2>Login</h2>
+                <button id="button1">Create Account</button>
+             </div>
+
+            </div>
+        </div>
+        <div id="white">
+            <img src="https://kcdn.twiikapp.com/images/gettheapp.png" alt="Gettheapp">
+            <div></div>
+        </div>
+        <div>
+            <div>
+                <h1></h1>
+                <p></p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
