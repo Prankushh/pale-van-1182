@@ -1,0 +1,217 @@
+body {
+    margin: auto;
+    font-family: lato, Arial, Helvetica, sans-serif;
+
+}
+
+#main {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 400px);
+
+}
+
+#main>div {
+    border: 0px solid red;
+}
+
+#grey {
+
+    background-color: #383838;
+   
+}
+
+#grey div {
+    border: 0px solid red;
+    height: 82px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 13px;
+    cursor: pointer;
+    margin-left: -2px;
+}
+
+
+#get-the-app {
+    display: flex;
+    justify-content: space-between;
+    border: 0px solid red;
+    width: 700px;
+    color: aliceblue;
+    font-size: small;
+}
+
+#button1 {
+    margin-top: -10px;
+    height: 50px;
+    margin-top: -1px;
+    width: 200px;
+    margin-right: 20px;
+    color: azure;
+    border: none;
+    cursor: pointer;
+    border-radius: 80px;
+    background-image: linear-gradient(to right, #5a3bdb, #75c6ec);
+}
+
+#white {
+    display: flex;
+    background-color: white;
+    margin-bottom: -95px;
+    margin-top: -100px;
+}
+
+
+
+#blue {
+    background: #121451;
+    margin-top: 100px;
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+}
+
+#blue div {
+    width: 500px;
+    height: 200px;
+    border: 0px solid rgb(244, 237, 237);
+    margin-top: 40px;
+}
+
+p+div {
+    display: flex;
+    gap: 20px;
+    height: 50px;
+    margin-top: 70px;
+    cursor: pointer;
+}
+
+#socialmedia {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+#socialmedia img:hover {
+    background-color: #3012d8;
+    color: #383838;
+}
+
+#socialmedia>a>img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 50px;
+
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* background-color: #383838; */
+    /* for transpatent navbar  */
+    background: rgba(0, 0, 0, 0.6); 
+}
+#stickyimg{
+    /* position: fixed; */
+    top: 0;
+    height: 47px;
+    /* display: flex; */
+    justify-content: space-between;
+    padding-top: -6px;
+    cursor: pointer;
+    margin-left: 34px;
+    left: 0;
+    width: 158px;
+    
+
+}
+/* -----------------------------------------------log in css----------------------------------------------------------------------- */
+
+.popup{
+    /* background: rgba(0, 0, 0, 0.6); */
+    width: 100%;
+    position:absolute;
+    /* top: 0; */
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: -95px;
+    }
+
+   .popup_contant{
+    height: 500px;
+    width: 500px;
+    margin-top: -200px;
+    background: #ffff;
+    /* padding: 20px; */
+    border: 0px solid red;
+    text-align: center;
+    position: relative;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+   } 
+
+
+   .close{
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    background-color: rgb(251, 248, 248);
+    border-radius: 75px;
+    cursor: pointer;
+   }
+  
+   
+   .login_input {
+    border:none;
+    border-bottom: 1px solid #000;
+    border-radius: 0px;
+    padding: 20px 0px;
+    width: 75%;
+}
+#login_form_button {
+    background: #3cc6dc;
+    color: #fff;
+    border: none;
+    line-height: 40px;
+    font-size: 15px;
+    width: 75%;
+    outline: none;
+    -webkit-appearance: none;
+    border-radius: 10px;
+}
+#login_form_button:hover{
+    cursor: pointer;
+    background: #409ba9;
+
+}
+.login_facebook {
+    display: inline-block;
+    padding: 0px;
+    font-size: 15px;
+    color: #fff;
+    background: #0a3083  no-repeat 10px 10px;
+    border: none;
+    line-height: 40px;
+    border-radius: 10px;
+    width: 75%;
+    cursor: pointer;
+}
+.login_facebook:hover{
+    background: #3b5998   
+}
+
+.bg-modal{
+    width: 100%;
+    height: 1201px;
+    background-color: rgba(151, 148, 148, 0.7);
+    /* opacity: 0.9 ;  */
+    display: none;
+    align-items: center;
+    position: absolute;
+    top: 0  ;
+
+}
+
+
