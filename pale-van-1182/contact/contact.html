@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="C:\Users\prank\OneDrive\Desktop\Twiik project\pale-van-1182\contact\css\contact.css">
+    <link rel="stylesheet" href="./css/contact.css">
 
 </head>
 
@@ -16,18 +16,19 @@
             <div class="sticky" style="margin: left 10px;width: 100%;">
                 <img id="stickyimg" height="50px" src="https://kcdn.twiikapp.com/images/logo.png" alt="">
                 <div id="get-the-app">
-                    <a target="_blank" href="C:\Users\prank\OneDrive\Desktop\Twiik project\pale-van-1182\get_the_app\index.html ">
+                    <a target="_blank" href="../get_the_app/index.html">
                         <h2 style="color: white;" >Get the app</h2>
                     </a>
-                    <a href="C:\Users\prank\OneDrive\Desktop\Twiik project\pale-van-1182\contact\contact.html">
+                    <a href="./contact.html">
                         <h2 style="color: white;" >Conatact</h2>
                     </a>                   
                    
                     <h2 class="login-btn">Login</h2>
                     <button id="button1">Create Account</button>
-                </div>
+                </div>               
 
             </div>
+            
         </div>
         <div id="white">
             <div class="bg-modal">
@@ -84,6 +85,43 @@
             </div>
 
             </div>
+        <div class="content" style="width: 100%;text-align: center;height: 251px;box-sizing: border-box; margin-top: -497px;">
+                <h1 style="margin-bottom: 25px; color: rgb(249, 244, 244);">Are you not a member?</h1>                
+                <input class="gradient_button" value="Create account" type="button" onclick="document.location.href='/en/user/register';"> &nbsp; 
+                <input class="border_button" value="Get the app" type="button">        
+            </div>
+            <div style="margin-left: 200px;margin-top: -600px;" class="content">
+
+
+                <h2><span>Contact Twiik</span></h2>
+                
+        <form name="contact" method="post" action="/en/start/mailsent">        
+        <table cellspacing="0" class="form" style="max-width: 600px;">
+        <tbody><tr>
+          <td style="padding-bottom: 50px;">If you want to contact us, please use the form below or send an e-mail to appsupport@twiik.me</td>
+        </tr>
+                        <tr>
+          <td><input type="text" name="name" id="name" value="" class="login_input" placeholder="Name" style="font-size: 16px;"></td>
+        </tr>
+        <tr>
+          <td><input type="text" name="email" id="email" value="" class="login_input" placeholder="Email address" style="font-size: 16px;"></td>
+        </tr>
+                <tr>
+          <td style="padding-bottom: 25px;"><textarea name="message" id="message" class="login_input" placeholder="Message" style="height: 200px; font-size: 16px;"></textarea></td>
+        </tr>
+        <tr>
+          <td style="padding-bottom: 25px;">
+                    	
+        	<div class="g-recaptcha" data-sitekey="6Lc1SAsUAAAAAABn0yfgaj-_JMbenz9WI0OWBGzm" id="g-recaptcha"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" src="https://www.google.com/recaptcha/api2/anchor?ar=2&amp;k=6Lc1SAsUAAAAAABn0yfgaj-_JMbenz9WI0OWBGzm&amp;co=aHR0cHM6Ly93d3cuc2hhcGVsaW5rLmNvbTo0NDM.&amp;hl=en&amp;v=3TZgZIog-UsaFDv31vC4L9R_&amp;size=normal&amp;cb=lhpfyc1j5fio" width="304" height="78" role="presentation" name="a-4gnsa7z5f62m" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
+          </td>
+        </tr>
+        <tr>
+          <td><input type="submit" name="commit" value="Send" class="gradient_button"></td>
+        </tr>
+        </tbody></table>
+            
+
+    </form></div>
 
         </div>
 
@@ -129,7 +167,7 @@
 
 </html>
 
-<script src="C:\Users\prank\OneDrive\Desktop\Twiik project\pale-van-1182\contact\js\main.js"></script>
+<script src="./js/main.js"></script>
 
 
 

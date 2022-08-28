@@ -7,7 +7,7 @@ body {
 #main {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(3, 400px);
+    grid-template-rows: repeat(3, 320px);
 
 }
 
@@ -28,9 +28,31 @@ body {
     justify-content: space-between;
     padding-top: 13px;
     cursor: pointer;
+    padding-left: 2px;
     margin-left: -2px;
 }
-
+.gradient_button {
+    padding: 0px 25px;
+    background-image: linear-gradient(to right, #5a3bdb, #75c6ec);
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    line-height: 50px;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+}
+.border_button {
+    position: relative;
+    padding: 0px 25px;
+    background: rgba(248, 247, 247, 0.15);
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    line-height: 46px;
+    border-radius: 25px;
+    border: 0px solid #75c6ec;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+}
 
 #get-the-app {
     display: flex;
@@ -57,8 +79,8 @@ body {
 #white {
     display: flex;
     background-color: white;
-    margin-bottom: -95px;
-    margin-top: -100px;
+    margin-bottom: -100px;
+    margin-top: -5px;
 }
 
 
@@ -68,6 +90,7 @@ body {
     margin-top: 100px;
     display: flex;
     gap: 50px;
+    padding-bottom: 40px;
     justify-content: space-around;
 }
 
@@ -109,9 +132,9 @@ p+div {
     position: fixed;
     top: 0;
     left: 0;
-    /* background-color: #383838; */
+    background-color: #383838; 
     /* for transpatent navbar  */
-    background: rgba(0, 0, 0, 0.6); 
+    /* background: rgba(0, 0, 0, 0.6);  */
 }
 #stickyimg{
     /* position: fixed; */
